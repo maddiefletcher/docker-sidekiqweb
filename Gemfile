@@ -2,4 +2,5 @@
 source "https://rubygems.org"
 
 gem "sidekiq"
-gem 'sinatra', "~> 1.4"
+gem "redis-namespace"
+gem 'sinatra', "~> 3.0"
