@@ -1,4 +1,4 @@
-FROM ruby:2.3.0
+FROM ruby:2.7.6
 
 ADD Gemfile* /sidekiq/
 WORKDIR /sidekiq
